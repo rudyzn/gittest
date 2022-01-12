@@ -1,0 +1,93 @@
+input[type=text], input[type=date], input[type=password], input[type=select], select, textarea {
+    width: 100%;
+    padding: 5px 8px 5px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=radio] {
+    align-items: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    display: flex;
+  }
+
+.listing {
+    width: 65%;
+    height:auto;
+    padding: 4px 4px 4px 4px;
+    margin: 2px;
+    border: grey;
+    border-radius: 3%;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lightcyan;
+      }
+
+.formulaire {
+    width: 35%;
+    height: 90%;
+    padding: 4px 4px 4px 4px;
+    margin: 2px;
+    border: grey;
+    border-style: solid;
+    border-radius: 3%;
+    border-color: grey;
+    border-width: 2px;
+    background-color:lightskyblue;
+    }
+
+h2 {
+    padding: 2px 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+    align-items: baseline;
+}
+
+input[type=button], input[type=submit]{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4%;
+      }
+
+input[type=reset] {
+        background-color:red;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4%;
+
+      }
+
+table
+      {
+          border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+      }
+td
+      {
+          border: 1px solid black;
+          padding-right: 5px;
+          padding-left: 2px;
+      }
+
+th  {
+        text-align: center;
+        padding: 2px 4px
+
+}
+//box-sizing= border-box;
+width = 100%
