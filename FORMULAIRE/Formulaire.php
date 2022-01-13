@@ -7,6 +7,7 @@
 <!-- on peut representer, au choix, un array de 2 façons:  array() == [] -->
 <?php
 echo "<pre>";
+echo "TEST"
 
 
     print_r($POST)
